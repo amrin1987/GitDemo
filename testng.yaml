@@ -1,0 +1,11 @@
+name: Suite
+configFailurePolicy: skip
+listeners:
+  - RahulAcademy.E2EProject.ListnerTest
+tests:
+  - name: TestE2EProject
+  classes:
+    - RahulAcademy.E2EProject.WomenslinkPageTest
+    - RahulAcademy.E2EProject.MyntraHomePageTest
+    - RahulAcademy.E2EProject.SignUpPageTest
+
