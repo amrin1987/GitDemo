@@ -92,6 +92,7 @@ public class WomenslinkPageTest extends Base {
 						webdriver.findElement((By.xpath("//div[@class='pdp-description-container']/div[3]/div/div[1]"))).click();
 						webdriver.close();
 						webdriver.switchTo().window(parentWindow);
+						System.out.println("changes made for github");
 					}
 					
 				}

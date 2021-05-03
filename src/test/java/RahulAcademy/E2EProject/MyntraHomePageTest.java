@@ -33,6 +33,8 @@ public class MyntraHomePageTest extends Base {
 		String title = "Online Shopping for Women, Men, Kids Fashion & Lifestyle - Myntra";
 		String actual = homePage.verifyTitle();
 		Assert.assertEquals(actual, title);
+		System.out.println("changed this line for checking github1");
+		System.out.println("changed this line for checking github2");
 	}
 	@Test
 	public void linksCount() {
